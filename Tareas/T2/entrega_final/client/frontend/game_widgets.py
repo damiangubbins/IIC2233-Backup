@@ -3,6 +3,7 @@
 import sys
 
 import frontend.stylesheets as ss
+import parametros as p
 from backend.sprites import Carrot
 from frontend.board import Board
 from frontend.item_widgets import (AppleBombWidget, AppleItem, FireZoneWidget,
@@ -15,8 +16,6 @@ from PyQt6.QtGui import QKeyEvent, QMouseEvent, QPixmap, QTransform
 from PyQt6.QtWidgets import (QAbstractItemView, QHBoxLayout, QLabel,
                              QListWidget, QPushButton, QStyledItemDelegate,
                              QStyleOptionViewItem, QVBoxLayout, QWidget)
-
-import parametros as p
 
 
 class GameWindow(QWidget):
@@ -305,9 +304,6 @@ class LeftMenu(QWidget):
 
     def update_time(self, time: int):
         self.time.setText(str(time))
-
-        if time == 20:
-            self.time.setStyleSheet("color: red; font-weight: bold")
 
     def update_score(self, score: float):
         self.score.setText(str(score))

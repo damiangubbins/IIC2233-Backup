@@ -1,6 +1,3 @@
-*.pdf
-imprimir_tablero.py
-tableros.txt
 test.py
 test_todos.py
 tests/
