@@ -1,0 +1,7 @@
+__pycache__/
+*.idea
+*.DS_STORE
+
+*.pdf
+entrega_final/client/assets/
+entrega_final/server/client_test.py

@@ -1,0 +1,8 @@
+*.pdf
+imprimir_tablero.py
+tableros.txt
+test.py
+test_todos.py
+tests/
+tests_privados/
+apoyo_adicional/

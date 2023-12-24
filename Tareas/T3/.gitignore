@@ -1,0 +1,5 @@
+*.pdf
+test_publicos/
+api.py
+utilidades.py
+run_public_tests.py
